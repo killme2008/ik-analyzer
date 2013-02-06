@@ -14,6 +14,7 @@ import org.apache.lucene.analysis.cn.smart.SmartChineseAnalyzer;
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.analysis.tokenattributes.TermAttribute;
 import org.apache.lucene.util.Version;
+import org.junit.Ignore;
 
 import junit.framework.TestCase;
 
@@ -21,6 +22,7 @@ import junit.framework.TestCase;
  * @author linliangyi
  *
  */
+@Ignore
 public class StandardAnalyzerTest extends TestCase{
 
 	public static void main(String[] args){
